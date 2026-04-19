@@ -10,6 +10,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "dist", // This ensures everything goes into ONE folder
+    outDir: "dist",
+    emptyOutDir: true,
   },
 });
